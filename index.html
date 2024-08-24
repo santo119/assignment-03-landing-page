@@ -17,10 +17,22 @@
 
     <link rel="stylesheet" href="index.css">
 
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+    <style>
+        .font{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
 
 </head>
 
-<body>
+<body class="font">
 
     <header class="container mx-auto ">
 
@@ -30,7 +42,7 @@
             <div class="navbar ">
                 <div class="navbar-start">
 
-                    <h3 class="text-3xl btn btn-ghost flex text-center gap-2 font-bold"><img
+                    <h3 class="lg:text-3xl btn btn-ghost flex text-center gap-2 font-bold"><img
                             class="text-2xl bg-[#ABEF5F] p-2 rounded-full" src="images/arrow.png" alt="">
                         Rinterio</h3>
                 </div>
@@ -54,8 +66,8 @@
                     </a>
 
                 </div>
-                <div tabindex="0" role="button" class="btn btn-ghost mx-14   lg:hidden">
-                    <i class="fa-solid fa-list rounded-full bg-white p-4"></i>
+                <div tabindex="0" role="button" class="btn btn-ghost mx-14    lg:hidden">
+                    <i class="fa-solid fa-bars p-4 bg-white rounded-full ml-6"></i>
                 </div>
 
             </div>
@@ -70,14 +82,16 @@
                 </div>
                 <h1 class="lg:text-5xl font-bold">A barn house of this design has a <br>
                     striking appearance</h1>
-                <p class="lg:text-sm px-4">The barn house captivates with its blend of rustic charm and modern
+                <p class="lg:text-xs px-4">The barn house captivates with its blend of rustic charm and modern
                     sophistication, featuring
                     weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
                 </p>
 
-                <button class="btn bg-[#ABEF5F] lg:w-[162px] opacity-8 rounded-[32px]">View Details
+               <div class="lg:mx-[460px] pb-4">
+                <button class="btn flex bg-[#ABEF5F] text-center justify-center  lg:w-[200px] opacity-8 rounded-[32px]">View Details
                     <img class="text-2xl bg-[#ABEF5F] p-2 rounded-full" src="images/arrow.png" alt="">
                 </button>
+               </div>
 
             </section>
 
@@ -93,11 +107,11 @@
                 <div class="py-[100px] px-10 space-y-5">
                     <img src="images/Vector.png" alt="">
 
-                    <p class="bg-white text-black w-[120px] px-3  rounded-[32px]"><i
+                    <p class="bg-white text-black w-[180px] px-3  rounded-[32px]"><i
                             class="fa-solid fa-arrow-right px-2"></i>About Us</p>
                     <h2 class="lg:text-4xl font-bold">We design thoughtful, <br>
                         liveable spaces</h2>
-                    <p>The barn house captivates with its blend of rustic charm and <br>
+                    <p class="text-xs">The barn house captivates with its blend of rustic charm and <br>
                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
                     <div class="flex space-x-4 p-8 rounded-xl bg-[#FFFFFF]">
@@ -106,7 +120,7 @@
                         </div>
                         <div class="space-y-2">
                             <h6 class="text-2xl font-bold">Commercial</h6>
-                            <p>The barn house captivates with its blend <br>
+                            <p class="text-xs">The barn house captivates with its blend <br>
                                 of rustic charm and modern.</p>
                         </div>
                     </div>
@@ -116,7 +130,7 @@
                         </div>
                         <div class="space-y-2">
                             <h6 class="text-2xl font-bold">Residential</h6>
-                            <p>The barn house captivates with its blend <br>
+                            <p class="text-xs">The barn house captivates with its blend <br>
                                 of rustic charm and modern.</p>
                         </div>
                     </div>
@@ -138,7 +152,7 @@
                 </button>
 
                 <h2 class="text-3xl font-bold mb-8">Our Works Process</h2>
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+                <p class="text-xs">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
                     featuring
                     weathered wood, sleek metal accents.</p>
 
@@ -151,7 +165,7 @@
                             <img class="w-12 ml-2" src="images/concept.png" alt="">
                             <div class=" px-5 truncate mr-3">
                                 <h2 class="card-title ">Concept</h2>
-                                <p class="truncate">The barn house captivates <br>with its blend of rustic charm <br>
+                                <p class="truncate text-xs mt-4">The barn house captivates <br>with its blend of rustic charm <br>
                                     and modern.</p>
                             </div>
 
@@ -163,7 +177,7 @@
                             <img class="w-12 ml-2" src="images/flow-chart.png" alt="">
                             <div class=" px-5 truncate mr-3">
                                 <h2 class="card-title ">Design Process</h2>
-                                <p class="truncate">The barn house captivates <br>with its blend of rustic charm <br>
+                                <p class="truncate text-xs mt-4">The barn house captivates <br>with its blend of rustic charm <br>
                                     and modern.</p>
                             </div>
 
@@ -175,7 +189,7 @@
                             <img class="w-12 ml-2" src="images/vision.png" alt="">
                             <div class=" px-5 truncate mr-3">
                                 <h2 class="card-title ">Supervision</h2>
-                                <p class="truncate">The barn house captivates <br>with its blend of rustic charm <br>
+                                <p class="truncate text-xs mt-4">The barn house captivates <br>with its blend of rustic charm <br>
                                     and modern.</p>
                             </div>
 
@@ -186,8 +200,8 @@
                         <div class="card-body space-y-2">
                             <img class="w-12 ml-2" src="images/budget-planning.png" alt="">
                             <div class=" px-5 truncate mr-3">
-                                <h2 class="card-title ">Card title!</h2>
-                                <p class="truncate">The barn house captivates <br>with its blend of rustic charm <br>
+                                <h2 class="card-title ">Budget Planning</h2>
+                                <p class="truncate text-xs mt-4">The barn house captivates <br>with its blend of rustic charm <br>
                                     and modern.</p>
                             </div>
 
@@ -217,8 +231,8 @@
                 Explore our Latest works
             </button>
 
-            <h2 class="text-3xl font-bold mb-8">Our Latest Portfolio</h2>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+            <h2 class="lg:text-3xl font-bold mb-8">Our Latest Portfolio</h2>
+            <p class="text-xs">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
                 featuring
                 weathered wood, sleek metal accents.</p>
 
@@ -235,8 +249,8 @@
                         <div class="hero-content flex-col lg:flex-row">
 
                             <div class="flex-1">
-                                <h1 class="text-2xl flex-row float-left font-bold">Commercial</h1>
-                                <p class="py-10 float-left px-4">
+                                <h1 class="lg:text-2xl flex-row float-left font-bold">Commercial</h1>
+                                <p class="py-10 float-left px-4 text-sm">
                                     The barn house captivates with its blend of rustic charm <br> and modern. The barn
                                     house captivates
                                     with its blend of <br> rustic charm and modern .
@@ -265,8 +279,8 @@
                         <div class="hero-content flex-col lg:flex-row">
 
                             <div class="flex-1">
-                                <h1 class="text-2xl flex-row float-left font-bold">Commercial</h1>
-                                <p class="py-8 float-left px-4">
+                                <h1 class="lg:text-2xl flex-row float-left font-bold">Commercial</h1>
+                                <p class="py-8 float-left px-4 text-xs">
                                     The barn house captivates with <br> its blend of rustic charm and <br> modern.
 
                                 </p>
@@ -298,7 +312,7 @@
             </button>
 
             <h2 class="lg:text-3xl font-bold mb-8">Let’s Discuss Next Project</h2>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+            <p class="text-xs">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
                 featuring
                 weathered wood, sleek metal accents.</p>
 
@@ -341,8 +355,188 @@
 
         <!-- unique section or bounus part Start -->
 
-        <section>
-            
+        <section class="mt-20">
+
+           <div class="py-10 text-center">
+            <h2 class="lg:text-5xl">Luxurious Property</h2>
+           </div>
+
+           <div class="grid lg:grid-cols-4 gap-4 shadow-xl">
+            <!-- card 1 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (25).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Villa On Washington ON Avenue</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $45000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 2 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (26).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Villa On California ON Avenue</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $55000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 3 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (27).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Silicon Valley ON Avenue</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $50000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 4 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (28).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Villa On UK ON Avenue</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $65000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 5 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (29).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Awesome Family ON Avenue</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $70000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 6 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (30).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Agile Real State Group</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $70000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 7 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (31).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Comfort Property Advisor</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $85000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card 8 -->
+            <div class="card   max-w-96 shadow-xl">
+               
+               <figure>
+                <img src="images/property (32).jpg" alt="">
+               </figure>
+                <div class="card-body">
+                  
+                  <h2 class="card-title lg:text-2xl">Villa On United Kingdom ON Avenue</h2>
+                  <div class="card-actions justify-between py-4  flex">
+                    <a class="" href=""><i class="fa-solid fa-bed text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>3 Beds</a>
+                    <a class="" href=""><i class="fa-solid fa-restroom text-orange-600 shadow-xl rounded-full border-gray-200 p-3 mr-2"></i>2 Bath..</a>
+                    <a class="" href=""><i class="fa-solid fa-square text-orange-600 shadow-xl rounded-full border-gray-200 p-3 "></i>3000 ft.</a>
+                  </div>
+                 
+                  <div class="card-actions justify-between flex">
+                    <h4 class="text-orange-600">Price : $95000</h4>
+                    <button class="btn bg-teal-700 text-white">Details</button>
+                  </div>
+                </div>
+              </div>
+           </div>
+
         </section>
 
         <!-- unique section or bounus part ends -->
@@ -352,22 +546,22 @@
 
     </main>
 
-    <footer class="bg-[#1C1C1C] text-white mt-20 py-5 space-y-4  justify-center items-center text-center   mx-auto">
+    <footer class="bg-[#1C1C1C] text-white mt-20 py-5 space-y-10  justify-center items-center text-center   mx-auto">
 
 
-        <section class="space-y-4 justify-center text-center">
+        <section class="space-y-10 justify-center text-center">
             <div class="navbar-center">
 
-                <h3 class="text-3xl btn btn-ghost flex text-center gap-2 font-bold"><img
+                <h3 class="lg:text-3xl btn btn-ghost flex text-center gap-2 font-bold"><img
                         class="text-2xl bg-[#ABEF5F] p-2 rounded-full" src="images/arrow.png" alt="">
                     Rinterio</h3>
             </div>
-            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+            <p class="text-xs">The barn house captivates with its blend of rustic charm and modern sophistication, <br>
                  featuring weathered
                 wood, sleek metal accents.</p>
             
-                <div class="navbar-center flex-col  lg:flex lg:mx-[460px] ">
-                    <ul class="lg:flex text-center gap-5">
+                <div class="navbar-center flex-col py-6 lg:flex lg:mx-[460px] ">
+                    <ul class="lg:flex text-center gap-5 ">
                         <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
